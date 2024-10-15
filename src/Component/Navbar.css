@@ -1,0 +1,10 @@
+ul {
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+}
+
+li {
+    font-size: 2rem;
+    list-style-type: none;
+}
