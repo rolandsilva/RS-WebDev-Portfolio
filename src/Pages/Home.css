@@ -1,4 +1,4 @@
-h1 {
+/* h1 {
     width: 50%;
     border: 2px solid black;
     padding: 10px;
@@ -6,8 +6,119 @@ h1 {
     font-size: 5rem;
     margin: 0 auto;
 
+} */
+
+/* General styling for the home page */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #121212;
+    color: white;
 }
 
-/* .h1Home {
-    min-width: 100%;
+/* .content {
+    text-align: center;
+    margin-bottom: 40px;
+    outline: 1px solid red;
+    ;
 } */
+
+/* .homeH1 {
+    width: 50%;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: rgb(123, 183, 203);
+    font-size: 5rem;
+    margin: 0 auto;
+} */
+.mainSection {
+    margin: 0;
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    /* outline: 1px solid red; */
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 0 0 1.5rem 0;
+    line-height: 4rem;
+    transform: scaleX(1.1);
+    padding-left: 1rem;
+    /* Stretches the text horizontally without changing its height */
+}
+
+
+h3 {
+    color: #67c867;
+    font-size: 24px;
+    margin: 0;
+    /* padding: .2rem; */
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: .9rem;
+    color: #67c867;
+    margin: 0;
+    padding: .2rem;
+}
+
+p.description {
+    font-size: 16px;
+    color: #bbb;
+    /* outline: 1px solid gold; */
+    margin: 0;
+    padding: .2rem;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    padding: .2rem;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: 2px solid #67c867;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #67c867;
+    color: black;
+}
+
+.get-resume {
+    background-color: #67c867;
+    color: white;
+}
+
+.get-resume:hover {
+    background-color: white;
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+}
+
+.social-link {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    color: #67c867;
+}
