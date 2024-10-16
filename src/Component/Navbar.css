@@ -5,12 +5,38 @@ ul {
     padding: .5rem 2rem;
     display: flex;
     justify-content: end;
-    gap: 50px;
+    gap: 30px;
+    list-style-type: none;
 }
 
 li {
     /* color: #67c867; */
-    color: white;
+    color: whitesmoke;
     font-size: 1.2rem;
-    list-style-type: none;
+    /* line-height: .5rem; */
+
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+li a:visited {
+    text-decoration: none;
+    color: rgb(151, 151, 151);
+}
+
+li a:hover,
+li a:focus {
+    background: #333;
+    color: whitesmoke;
+    border: 1ps solid #65c865;
+    /* cursor: pointer; */
+    padding: .5rem;
+}
+
+li a:active {
+    color: #65c865;
 }
