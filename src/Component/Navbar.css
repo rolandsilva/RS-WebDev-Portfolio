@@ -1,18 +1,49 @@
+* {
+    margin: 0;
+}
+
+
+.nav-bar {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    outline: 1px solid red;
+}
+
+.nav-rswd-logo {
+    height: 60%;
+    width: auto;
+    display: inline-block;
+    padding: 10px;
+    /* margin-top: 20px; */
+    outline: 1px solid gold;
+}
+
 ul {
     /* background-color: black; */
     background-color: #121212;
     margin: 0;
     padding: .5rem 2rem;
+    width: 100%;
+    height: 100%;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     gap: 30px;
     list-style-type: none;
+    outline: 2px solid green;
+}
+
+ul li:first-child {
+    margin-right: auto;
 }
 
 li {
     /* color: #67c867; */
     color: whitesmoke;
     font-size: 1.2rem;
+    padding-top: 1rem;
     /* line-height: .5rem; */
 
 }
@@ -40,3 +71,7 @@ li a:focus {
 li a:active {
     color: #65c865;
 }
+
+
+
+nav-rswd-log {}

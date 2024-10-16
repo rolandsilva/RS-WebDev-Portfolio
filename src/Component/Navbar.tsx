@@ -3,8 +3,16 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <div className="h1Home">
+    <div className="nav-bar">
+      .
       <ul>
+        <Link to="/">
+          <img
+            src="/images/RS-WebDev-Icon-text.png"
+            alt="Home Page"
+            className="nav-rswd-logo"
+          />
+        </Link>
         <li>
           <Link to="/about" className="btn about-me">
             ABOUT
