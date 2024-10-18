@@ -5,20 +5,22 @@
 
 .nav-bar {
     width: 100%;
-    height: 10vh;
+    height: 9vh;
+    background-color: #121212;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    outline: 1px solid red;
+    /* outline: 5px solid red; */
 }
 
-.nav-rswd-logo {
-    height: 60%;
+.nav-rswd-logo-image {
+    height: 40px;
     width: auto;
-    display: inline-block;
-    padding: 10px;
-    /* margin-top: 20px; */
-    outline: 1px solid gold;
+    position: absolute;
+    top: 15px;
+    left: 150px;
+    /* padding-top: 10px; */
+    /* outline: 1px solid gold; */
 }
 
 ul {
@@ -32,11 +34,7 @@ ul {
     justify-content: flex-end;
     gap: 30px;
     list-style-type: none;
-    outline: 2px solid green;
-}
-
-ul li:first-child {
-    margin-right: auto;
+    /* outline: 2px solid green; */
 }
 
 li {
@@ -51,7 +49,10 @@ li {
 li a {
     display: block;
     text-decoration: none;
-    color: whitesmoke;
+    /* color: whitesmoke; */
+    color: #65c865;
+    border: none;
+    background-color: transparent;
 }
 
 li a:visited {
@@ -61,17 +62,13 @@ li a:visited {
 
 li a:hover,
 li a:focus {
-    background: #333;
+    /* background: #333; */
     color: whitesmoke;
-    border: 1ps solid #65c865;
+    /* border: 1ps solid #65c865; */
     /* cursor: pointer; */
-    padding: .5rem;
 }
 
 li a:active {
-    color: #65c865;
+    /* color: #65c865; */
+    color: red;
 }
-
-
-
-nav-rswd-log {}

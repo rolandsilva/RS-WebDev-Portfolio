@@ -4,37 +4,36 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <div className="nav-bar">
-      .
+      <Link to="/">
+        <img
+          src="/images/RS-WebDev-Icon-text.png"
+          alt="Home Page"
+          className="nav-rswd-logo-image"
+        />
+      </Link>
       <ul>
-        <Link to="/">
-          <img
-            src="/images/RS-WebDev-Icon-text.png"
-            alt="Home Page"
-            className="nav-rswd-logo"
-          />
-        </Link>
         <li>
-          <Link to="/about" className="btn about-me">
+          <Link to="/about" className="about-me">
             ABOUT
           </Link>
         </li>
         <li>
-          <Link to="/skills" className="btn skills">
+          <Link to="/skills" className="skills">
             SKILLS
           </Link>
         </li>
         <li>
-          <Link to="/portfolio" className="btn portfolio">
+          <Link to="/portfolio" className="portfolio">
             PORTFOLIO
           </Link>
         </li>
         <li>
-          <Link to="/contact" className="btn contact">
+          <Link to="/contact" className="contact">
             CONTACT
           </Link>
         </li>
         <li>
-          <Link to="/resume" className="btn resume">
+          <Link to="/resume" className="resume">
             RESUME
           </Link>
         </li>

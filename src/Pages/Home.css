@@ -37,7 +37,10 @@
 .mainSection {
     margin: 0;
     text-align: left;
-    position: absolute;
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     top: 50%;
     left: 40%;
     /* outline: 1px solid red; */
@@ -85,7 +88,7 @@ p.description {
     padding: .2rem;
 }
 
-.btn {
+.btn-home {
     padding: 10px 20px;
     border: 2px solid #67c867;
     color: white;
@@ -94,19 +97,19 @@ p.description {
     transition: background-color 0.3s ease;
 }
 
-.btn:hover {
+.btn-home:hover {
     background-color: #67c867;
     color: black;
 }
 
-.get-resume {
+/* .get-resume {
     background-color: #67c867;
     color: white;
 }
 
 .get-resume:hover {
     background-color: white;
-}
+} */
 
 .social-links {
     display: flex;

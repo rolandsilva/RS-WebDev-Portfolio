@@ -16,10 +16,10 @@ const Home = () => {
           </p>
         </article>
         <div className="buttons">
-          <a href="#resume" className="btn get-resume">
+          <a href="#resume" className="btn-home get-resume">
             Get Resume
           </a>
-          <a href="#about" className="btn about-me">
+          <a href="#about" className="btn-home about-me">
             About Me
           </a>
         </div>
