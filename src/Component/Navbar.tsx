@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className="nav-bar">
       <Link to="/">
         <img
-          src="/images/RS-WebDev-Icon-text.png"
+          src="/images/RS-WebDev-Icon-text-2.png"
           alt="Home Page"
           className="nav-rswd-logo-image"
         />

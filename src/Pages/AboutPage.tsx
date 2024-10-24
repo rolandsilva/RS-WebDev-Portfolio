@@ -14,13 +14,13 @@ const AboutPage = () => {
           </p>
         </article> */
   return (
-    <section className="profilecontainer">
-      {/* <div className="profilecontent"> */}
+    <section className="about-container">
+      {/* <div className="about-content"> */}
       {/* <h3>About Page</h3> */}
-      <div className="profilesection">
-        <div className="profilecontent">
+      <div className="about-section">
+        <div className="about-content">
           {/* <h1>Zonayed Ahmed</h1> */}
-          <p className="profilep">
+          <p className="about-p">
             Hello! I am Roland Silva a passionate software engineer. I develop
             web applications, mobile apps, and desktop applications. My core
             skill is HTML, CSS, JavaScript and React and I love to work with it.
@@ -35,8 +35,8 @@ const AboutPage = () => {
         <div className="imgdiv">
           <img
             src="images/IMG_coconut.jpg"
-            alt="Profile Picture"
-            className="profileimage"
+            alt="about- Picture"
+            className="about-image"
           />
         </div>
       </div>

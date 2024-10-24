@@ -16,7 +16,7 @@ h3 {
     /* padding: .2rem; */
 }
 
-.profilecontainer {
+.about-container {
     height: 85vh;
     padding: 40px;
     background-color: #141823;
@@ -27,7 +27,7 @@ h3 {
     gap: 10px;
 }
 
-.profilesection {
+.about-section {
     display: flex;
     position: relative;
     top: 300px;
@@ -36,7 +36,7 @@ h3 {
 }
 
 
-.profilecontent {
+.about-content {
     display: flex;
     flex-direction: column;
     width: 60%;
@@ -46,7 +46,7 @@ h3 {
 
 }
 
-.profilep {
+.about-p {
     text-align: left;
     /* display: flex;
     position: relative; */
@@ -57,7 +57,7 @@ h3 {
     width: 30%;
 }
 
-.profileimage {
+.about-image {
     display: flex;
     position: relative;
     width: 80%;
@@ -75,7 +75,7 @@ h3 {
 .about-button {
     /* margin: 10px; */
     padding: 10px 20px;
-    border: 0.1rem solid #67c867;
+    border: 0.1rem solid rgb(103, 200, 103);
     color: rgb(213, 213, 213);
     background-color: #141823;
     text-decoration: none;
