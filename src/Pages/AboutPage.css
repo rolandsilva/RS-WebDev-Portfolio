@@ -16,31 +16,78 @@ h3 {
     /* padding: .2rem; */
 }
 
-.profilesection {
+.profilecontainer {
+    height: 85vh;
     padding: 40px;
-    background-color: #121212;
+    background-color: #141823;
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    gap: 10px;
 }
+
+.profilesection {
+    display: flex;
+    position: relative;
+    top: 300px;
+    gap: 2rem;
+    /* outline: 1px red solid; */
+}
+
 
 .profilecontent {
     display: flex;
+    flex-direction: column;
+    width: 60%;
     gap: 20px;
-    align-items: center,
+    align-items: start;
+    color: rgb(213, 213, 213);
+
+}
+
+.profilep {
+    text-align: left;
+    /* display: flex;
+    position: relative; */
+
+}
+
+.imgdiv {
+    width: 30%;
 }
 
 .profileimage {
-    width: 150px;
-    height: 150px;
+    display: flex;
+    position: relative;
+    width: 80%;
+    max-width: 300px;
+    aspect-ratio: 1 / 1;
     border-radius: 10%;
 }
 
+.aboutbuttons {
+    display: flex;
+    gap: 1rem;
+    /* outline: 1px red solid; */
+}
+
 .about-button {
-    margin: 10px;
+    /* margin: 10px; */
     padding: 10px 20px;
-    background-color: green;
-    color: white;
-    border: none;
-    cursor: pointer;
+    border: 0.1rem solid #67c867;
+    color: rgb(213, 213, 213);
+    background-color: #141823;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+
+}
+
+.about-button:hover,
+.about-button:focus {
+    /* margin: 10px; */
+    background-color: #67c867;
+    color: black;
+
 }

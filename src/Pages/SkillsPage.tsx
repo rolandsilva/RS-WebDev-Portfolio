@@ -41,7 +41,6 @@ const SkillsPage = () => {
               <div key={skill.name} className="skillBarContainer">
                 <span>{skill.name}</span>
                 <div className="skillBarWrapper">
-                  <div style={{ ...styles.skillBar, width: skill.level }}></div>
                   <span>{skill.level}</span>
                 </div>
               </div>
