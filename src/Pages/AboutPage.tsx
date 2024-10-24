@@ -15,25 +15,26 @@ const AboutPage = () => {
         </article> */
   return (
     <section className="profilesection">
-      <div className="profileContent">
-        <h3>About Page</h3>
-        <img
-          src="images/IMG_coconut"
-          alt="Profile Picture"
-          className="profileImage"
-        />
+      <div className="profilecontent">
+        {/* <h3>About Page</h3> */}
+
         <div>
-          <h1>Zonayed Ahmed</h1>
+          {/* <h1>Zonayed Ahmed</h1> */}
           <p>
-            I'm a passionate software engineer. I develop web applications,
-            mobile apps, and desktop applications. My core skill is HTML, CSS,
-            JavaScript and React and I love to work with it. I am a Computer
-            Science graduate from Southern New Hampshire University and Kenzie
-            Academy.
+            Hello! I am Roland Silva a passionate software engineer. I develop
+            web applications, mobile apps, and desktop applications. My core
+            skill is HTML, CSS, JavaScript and React and I love to work with it.
+            I am a Computer Science graduate from Southern New Hampshire
+            University and Kenzie Academy.
           </p>
+          <img
+            src="images/IMG_coconut.jpg"
+            alt="Profile Picture"
+            className="profileimage"
+          />
           <div>
-            <button>Get Resume</button>
-            <button>My Skills</button>
+            <button className="about-button">Get Resume</button>
+            <button className="about-button">My Skills</button>
           </div>
         </div>
       </div>
