@@ -17,3 +17,37 @@ h3 {
     margin: 0;
     /* padding: .2rem; */
 }
+
+.skillsSection {
+    background-color: #121212;
+    padding: 40px;
+    color: white;
+}
+
+.skillCategories {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skillCategory {
+    width: 30%;
+}
+
+.skillBarContainer {
+    margin-bottom: 20px;
+}
+
+.skillBarWrapper {
+    background-color: #2d2d2d;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    height: 20px;
+}
+
+.skillBar {
+    background-color: #32cd32;
+    height: 100%;
+    border-radius: inherit;
+    transition: width 0.5s;
+}

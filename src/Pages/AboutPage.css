@@ -15,3 +15,32 @@ h3 {
     margin: 0;
     /* padding: .2rem; */
 }
+
+.profileSection {
+    padding: 40px;
+    background-color: #101010;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.profileContent {
+    display: flex;
+    gap: 20px;
+    align-items: center,
+}
+
+.profileImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
